@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Jokempo!</title>
+</head>
+<body>
+  <h1>Jokenpo</h1>
+  <section>
+  <h3>Jogador:</h3>
+  <img src="imgs/pedra.png" alt="Pedra">
+  <img src="imgs/papel.png" alt="Papel">
+  <img src="imgs/tesoura.png" alt="Tesoura">
+  <form id="frmJokenpo">
+     <input type="radio" id="pedra" name="group">Pedra
+     <input type="radio" id="papel" name="group">Papel
+     <input type="radio" id="tesoura" name="group">Tesoura
+     
+     <p>
+        <input type="button" value="Jogar" onclick="jogar()">
+        <input type="reset" onclick="resetar()" value="ResetarJogo">
+     </p>
+   </form>
+   </section>
+<hr>
+   <section>
+   <h3>Computador</h3>
+   <img src="imgs/pc.png " alt="PC" id="pc">
+      
+<hr>
+   <h3 id="placar"></h3>
+   </section>
+   <footer>&copy;GuiFelipe</footer>
+<script src="script.js"></script>
+   
+
+     
+  
+  
+  
+</body>
+</html>
